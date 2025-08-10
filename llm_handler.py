@@ -37,3 +37,4 @@ class LLMHandler:
             return response.choices[0].message.content
         except Exception as e:
             return f"Error: {str(e)}"
+    
